@@ -76,3 +76,10 @@ articles/tet-nguyen-dan-net-dep.html?theme=dark&accent=D32412&top=64&bottom=96&v
 
 Toàn bộ file trong `images/` là ảnh nền màu sinh bằng ImageMagick, chỉ để chạy
 thử đường dây. Thay bằng ảnh thật khi có.
+
+## Bài viết không có tác giả
+
+Đây là quyết định có chủ ý, không phải thiếu sót: gói JSON không có trường
+`author`, khuôn HTML không có khối avatar/tên người viết. Dưới phần mô tả chỉ có
+một dòng `<p class="meta">` ghi ngày đăng và thời gian đọc. Đừng thêm tác giả trở
+lại ở một bài riêng lẻ — sẽ lệch với mọi bài còn lại.
