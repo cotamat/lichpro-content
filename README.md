@@ -24,7 +24,7 @@ content-1.json          → gói nội dung: chủ đề, danh mục con, danh s
 articles/*.html         → mỗi bài viết là một trang HTML đầy đủ
 assets/article.css      → khuôn trình bày dùng chung cho mọi bài
 assets/article.js       → đọc tham số app truyền vào URL (bắt buộc)
-images/                 → ảnh chủ đề, ảnh bài viết, ảnh tác giả
+images/                 → ảnh chủ đề và ảnh bài viết
 scripts/validate.py     → kiểm gói trước khi đẩy
 ```
 
@@ -76,15 +76,3 @@ articles/tet-nguyen-dan-net-dep.html?theme=dark&accent=D32412&top=64&bottom=96&v
 
 Toàn bộ file trong `images/` là ảnh nền màu sinh bằng ImageMagick, chỉ để chạy
 thử đường dây. Thay bằng ảnh thật khi có.
-
-## Trang bài viết không có khối siêu dữ liệu
-
-Đây là quyết định có chủ ý, không phải thiếu sót. Trang bài viết **không có**:
-
-- tác giả (không avatar, không tên người viết) — gói JSON cũng không có trường `author`;
-- ngày đăng;
-- thời gian đọc.
-
-Sau tiêu đề và dòng mô tả là vào thẳng ảnh bìa rồi nội dung. Ngày đăng vẫn hiện
-ở **thẻ bài trong danh sách của app** (lấy từ `publishedAt` trong gói), chỗ đó là
-đủ. Đừng thêm ba thứ trên trở lại ở một bài riêng lẻ — sẽ lệch với mọi bài còn lại.
