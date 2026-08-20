@@ -1,0 +1,219 @@
+/* Khuôn trình bày chung cho mọi bài viết Lịch Pro.
+ * Mọi bài chỉ cần link tới file này và assets/article.js, không tự khai màu.
+ * Đối chiếu mock: wiki/uiux/03.tab-kham-pha/cate/03.chi-tiet-bai-viet.png
+ */
+
+:root {
+  --accent: #D32412;          /* article.js ghi đè bằng màu chủ đạo của app */
+  --inset-top: 24px;
+  --inset-bottom: 24px;
+
+  --bg: #FCFAF9;
+  --text: #1B1A18;
+  --text-2: #6B6560;
+  --quote-bg: #FCF0E2;
+  --hairline: rgba(0, 0, 0, 0.09);
+  --code-bg: rgba(0, 0, 0, 0.05);
+
+  --side: 18px;
+  --serif: ui-serif, Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+}
+
+:root[data-theme="dark"] {
+  --bg: #24201D;
+  --text: #EDE9E4;
+  --text-2: #A59E96;
+  --quote-bg: #33291F;
+  --hairline: rgba(255, 255, 255, 0.12);
+  --code-bg: rgba(255, 255, 255, 0.08);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  /* Không bao giờ để trang trượt ngang trên máy 393pt. */
+  overflow-x: hidden;
+}
+
+body {
+  padding: var(--inset-top) var(--side) var(--inset-bottom);
+  font-size: 17px;
+  line-height: 1.45;
+  -webkit-text-size-adjust: none;   /* app phóng chữ bằng pageZoom, không để WebKit tự chỉnh */
+}
+
+/* Chuỗi dài không có dấu cách (URL trần) phải xuống dòng, không được làm tràn khung. */
+p, li, h1, h2, h3, h4, blockquote { overflow-wrap: anywhere; }
+
+/* ---------- Đầu bài ---------- */
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--cat, var(--accent));   /* mỗi bài tự đặt --cat bằng màu danh mục */
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-family: var(--serif);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.22;
+}
+
+.summary {
+  margin: 0 0 20px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text-2);
+}
+
+.byline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+.byline img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid rgba(255, 255, 255, 0.85);
+  flex: none;
+}
+.byline .who { font-size: 15px; font-weight: 500; }
+.byline .meta { font-size: 13px; color: var(--text-2); margin-top: 2px; }
+
+/* ---------- Khối nội dung ---------- */
+
+figure { margin: 22px 0; }
+img.cover, figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+figcaption {
+  margin-top: 8px;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-2);
+  text-align: center;
+}
+
+h2 {
+  margin: 32px 0 14px;
+  font-family: var(--serif);
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+h3 {
+  margin: 24px 0 12px;
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 600;
+}
+
+p { margin: 0 0 16px; }
+a { color: var(--accent); }
+code {
+  font-size: 0.92em;
+  background: var(--code-bg);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+
+blockquote {
+  margin: 22px 0;
+  padding: 18px 20px 18px 18px;
+  background: var(--quote-bg);
+  border-left: 3px solid var(--accent);
+  border-radius: 10px;
+  font-style: italic;
+  line-height: 1.5;
+}
+blockquote p:last-child { margin-bottom: 0; }
+blockquote::before {
+  content: "\201C";
+  display: block;
+  font-family: var(--serif);
+  font-size: 34px;
+  line-height: 0.6;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+ul, ol { margin: 0 0 16px; padding-left: 22px; }
+li { margin-bottom: 8px; }
+li::marker { color: var(--accent); }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--hairline);
+  margin: 26px 0;
+}
+
+/* ---------- Danh sách có icon (khối "Phong tục ngày Tết" trong mock) ---------- */
+
+ul.icon-list { list-style: none; margin: 18px 0; padding: 0; }
+ul.icon-list > li {
+  display: flex;
+  gap: 12px;
+  padding: 16px 0;
+  margin: 0;
+  border-bottom: 1px solid var(--hairline);
+}
+ul.icon-list > li:last-child { border-bottom: 0; padding-bottom: 0; }
+ul.icon-list > li:first-child { padding-top: 0; }
+ul.icon-list svg {
+  width: 26px;
+  height: 26px;
+  flex: none;
+  stroke: var(--accent);
+  fill: none;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  margin-top: 1px;
+}
+ul.icon-list h4 {
+  margin: 0 0 5px;
+  font-family: var(--serif);
+  font-size: 17px;
+  font-weight: 600;
+}
+ul.icon-list p { margin: 0; font-size: 15px; color: var(--text-2); }
+
+/* ---------- Callout ---------- */
+
+.callout {
+  --c: #2052AC;
+  margin: 20px 0;
+  padding: 14px 16px;
+  border-left: 3px solid var(--c);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--c) 12%, transparent);
+  font-size: 15px;
+}
+.callout[data-type="tip"] { --c: #237827; }
+.callout[data-type="warning"] { --c: #EC8D01; }
+.callout p:last-child { margin-bottom: 0; }
+.callout strong { color: var(--c); }
+
+/* ---------- Bảng ---------- */
+
+/* Bảng rộng quá thì cuộn ngang BÊN TRONG khung của nó, không đẩy cả trang. */
+.table-wrap { overflow-x: auto; margin: 20px 0; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; min-width: 100%; font-size: 15px; }
+th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--hairline); white-space: nowrap; }
+th { font-weight: 600; }
+td:last-child, th:last-child { white-space: normal; }

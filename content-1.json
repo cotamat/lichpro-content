@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-20T00:00:00Z",
+  "imageBaseURL": "https://phamtuandev.github.io/lichpro-content/",
+
+  "topics": [
+    {
+      "id": "culture",
+      "name": "Văn hóa truyền thống",
+      "heroTitle": "Văn hóa\ntruyền thống",
+      "summary": "Khám phá những giá trị văn hóa đặc sắc, phong tục tập quán và nét đẹp truyền thống của người Việt.",
+      "cardImage": "images/topics/culture-card.jpg",
+      "heroImage": "images/topics/culture-hero.jpg",
+      "categories": [
+        { "id": "phong-tuc",  "name": "Phong tục",  "color": "#D80000" },
+        { "id": "le-hoi",     "name": "Lễ hội",     "color": "#D32412" },
+        { "id": "tin-nguong", "name": "Tín ngưỡng", "color": "#D80000" },
+        { "id": "lang-nghe",  "name": "Làng nghề",  "color": "#EC8D01" },
+        { "id": "khac",       "name": "Khác",       "color": "#8A7C6D" }
+      ]
+    },
+    {
+      "id": "fengshui",
+      "name": "Phong thủy nhà cửa",
+      "heroTitle": "Phong thủy\nnhà cửa",
+      "summary": "Khám phá các nguyên tắc phong thủy để xây dựng không gian sống hài hòa, thu hút tài lộc và mang lại bình an cho gia đình.",
+      "cardImage": "images/topics/fengshui-card.jpg",
+      "heroImage": "images/topics/fengshui-hero.jpg",
+      "categories": [
+        { "id": "nha-o",        "name": "Nhà ở",       "color": "#D32412" },
+        { "id": "huong-nha",    "name": "Hướng nhà",   "color": "#D32412" },
+        { "id": "phong-khach",  "name": "Phòng khách", "color": "#D32412" },
+        { "id": "phong-ngu",    "name": "Phòng ngủ",   "color": "#D32412" },
+        { "id": "nha-bep",      "name": "Nhà bếp",     "color": "#EC8D01" },
+        { "id": "cua-chinh",    "name": "Cửa chính",   "color": "#D80000" }
+      ]
+    },
+    {
+      "id": "season",
+      "name": "Tiết khí & mùa trong năm",
+      "heroTitle": "Tiết khí &\nmùa trong năm",
+      "summary": "Khám phá 24 tiết khí trong năm, đặc điểm thời tiết theo mùa và những lưu ý quan trọng để sống thuận theo thiên nhiên.",
+      "cardImage": "images/topics/season-card.jpg",
+      "heroImage": "images/topics/season-hero.jpg",
+      "categories": [
+        { "id": "24-tiet-khi", "name": "24 tiết khí", "color": "#237827" },
+        { "id": "mua-xuan",    "name": "Mùa xuân",    "color": "#237827" },
+        { "id": "mua-ha",      "name": "Mùa hạ",      "color": "#D32412" },
+        { "id": "mua-thu",     "name": "Mùa thu",     "color": "#EC8D01" },
+        { "id": "mua-dong",    "name": "Mùa đông",    "color": "#2052AC" }
+      ]
+    },
+    {
+      "id": "tet",
+      "name": "Lễ Tết truyền thống",
+      "heroTitle": "Lễ tết\ntruyền thống",
+      "summary": "Khám phá ý nghĩa, phong tục và những nét đẹp trong các lễ tết truyền thống của người Việt qua từng thời kỳ.",
+      "cardImage": "images/topics/tet-card.jpg",
+      "heroImage": "images/topics/tet-hero.jpg",
+      "categories": [
+        { "id": "nguyen-dan",  "name": "Tết Nguyên Đán",   "color": "#D80000" },
+        { "id": "gio-to",      "name": "Giỗ tổ Hùng Vương", "color": "#D32412" },
+        { "id": "trung-thu",   "name": "Tết Trung Thu",    "color": "#EC8D01" },
+        { "id": "le-chua",     "name": "Lễ chùa đầu năm",  "color": "#B8860B" },
+        { "id": "thanh-minh",  "name": "Tết Thanh Minh",   "color": "#D32412" }
+      ]
+    }
+  ],
+
+  "articles": [
+    {
+      "id": "tet-nguyen-dan-net-dep",
+      "topicId": "culture",
+      "categoryId": "phong-tuc",
+      "title": "Tết Nguyên Đán – Nét đẹp văn hóa truyền thống của người Việt",
+      "summary": "Tìm hiểu ý nghĩa, phong tục và những giá trị văn hóa đặc sắc trong ngày Tết cổ truyền của dân tộc.",
+      "thumbnail": "images/articles/tet-nguyen-dan-thumb.jpg",
+      "publishedAt": "2024-01-15",
+      "featuredRank": 1,
+      "pageURL": "articles/tet-nguyen-dan-net-dep.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "huong-nha-hop-phong-thuy",
+      "topicId": "fengshui",
+      "categoryId": "huong-nha",
+      "title": "Cách xác định hướng nhà hợp phong thủy",
+      "summary": "Hướng nhà đóng vai trò quan trọng trong việc thu hút năng lượng tốt và mang lại bình an cho cả gia đình.",
+      "thumbnail": "images/articles/huong-nha-thumb.jpg",
+      "publishedAt": "2024-01-15",
+      "featuredRank": 2,
+      "pageURL": "articles/huong-nha-hop-phong-thuy.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "lap-xuan-khoi-dau-nam-moi",
+      "topicId": "season",
+      "categoryId": "24-tiet-khi",
+      "title": "Lập Xuân – Khởi đầu một năm mới",
+      "summary": "Lập Xuân là tiết khí đầu tiên trong năm, đánh dấu sự khởi đầu của vạn vật sau mùa đông dài.",
+      "thumbnail": "images/articles/lap-xuan-thumb.jpg",
+      "publishedAt": "2024-02-04",
+      "featuredRank": 3,
+      "pageURL": "articles/lap-xuan-khoi-dau-nam-moi.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "tho-cung-to-tien",
+      "topicId": "culture",
+      "categoryId": "tin-nguong",
+      "title": "Ý nghĩa của việc thờ cúng ông bà tổ tiên",
+      "summary": "Thờ cúng tổ tiên là một nét đẹp văn hóa tâm linh, thể hiện đạo lý “uống nước nhớ nguồn” của người Việt.",
+      "thumbnail": "images/articles/tho-cung-thumb.jpg",
+      "publishedAt": "2024-01-10",
+      "pageURL": "articles/tho-cung-to-tien.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "tet-trung-thu",
+      "topicId": "tet",
+      "categoryId": "trung-thu",
+      "title": "Tết Trung Thu – Đêm hội trăng rằm ấm áp yêu thương",
+      "summary": "Khám phá nguồn gốc, ý nghĩa và những phong tục đặc sắc của Tết Trung Thu trong đời sống người Việt.",
+      "thumbnail": "images/articles/trung-thu-thumb.jpg",
+      "publishedAt": "2024-09-17",
+      "pageURL": "articles/tet-trung-thu.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "le-chua-dau-nam",
+      "topicId": "tet",
+      "categoryId": "le-chua",
+      "title": "Lễ chùa đầu năm – Cầu bình an, may mắn",
+      "summary": "Ý nghĩa và những lưu ý khi đi lễ chùa đầu năm để đón một năm mới an lành.",
+      "thumbnail": "images/articles/le-chua-thumb.jpg",
+      "publishedAt": "2024-02-20",
+      "pageURL": "articles/le-chua-dau-nam.html",
+      "pageRevision": 1
+    }
+  ]
+}
