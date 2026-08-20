@@ -75,13 +75,9 @@ h1 {
   color: var(--text-2);
 }
 
-/* Ngày đăng • thời gian đọc. Bài viết KHÔNG có tác giả — bỏ có chủ ý, đừng
-   thêm lại avatar hay tên người viết. */
-.meta {
-  margin: 0 0 22px;
-  font-size: 14px;
-  color: var(--text-2);
-}
+/* Trang bài viết KHÔNG có khối siêu dữ liệu: không tác giả, không ngày đăng,
+   không thời gian đọc. Bỏ có chủ ý — ngày đăng vẫn hiện ở thẻ bài trong danh
+   sách của app, chỗ đó là đủ. Đừng thêm lại vào trang. */
 
 /* ---------- Khối nội dung ---------- */
 

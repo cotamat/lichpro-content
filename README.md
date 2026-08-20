@@ -77,9 +77,14 @@ articles/tet-nguyen-dan-net-dep.html?theme=dark&accent=D32412&top=64&bottom=96&v
 Toàn bộ file trong `images/` là ảnh nền màu sinh bằng ImageMagick, chỉ để chạy
 thử đường dây. Thay bằng ảnh thật khi có.
 
-## Bài viết không có tác giả
+## Trang bài viết không có khối siêu dữ liệu
 
-Đây là quyết định có chủ ý, không phải thiếu sót: gói JSON không có trường
-`author`, khuôn HTML không có khối avatar/tên người viết. Dưới phần mô tả chỉ có
-một dòng `<p class="meta">` ghi ngày đăng và thời gian đọc. Đừng thêm tác giả trở
-lại ở một bài riêng lẻ — sẽ lệch với mọi bài còn lại.
+Đây là quyết định có chủ ý, không phải thiếu sót. Trang bài viết **không có**:
+
+- tác giả (không avatar, không tên người viết) — gói JSON cũng không có trường `author`;
+- ngày đăng;
+- thời gian đọc.
+
+Sau tiêu đề và dòng mô tả là vào thẳng ảnh bìa rồi nội dung. Ngày đăng vẫn hiện
+ở **thẻ bài trong danh sách của app** (lấy từ `publishedAt` trong gói), chỗ đó là
+đủ. Đừng thêm ba thứ trên trở lại ở một bài riêng lẻ — sẽ lệch với mọi bài còn lại.
