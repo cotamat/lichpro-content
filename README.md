@@ -72,7 +72,47 @@ articles/tet-nguyen-dan-net-dep.html?theme=dark&accent=D32412&top=64&bottom=96&v
   `<div class="table-wrap">` để tự cuộn bên trong khung của nó.
 - Kiểm bài mới ở **393 pt**, cả `theme=light` lẫn `theme=dark`, trước khi đẩy.
 
-## Ảnh hiện tại là ảnh tạm
+## Ảnh cắt từ file design
 
-Toàn bộ file trong `images/` là ảnh nền màu sinh bằng ImageMagick, chỉ để chạy
-thử đường dây. Thay bằng ảnh thật khi có.
+Ảnh **hero chủ đề**, **thumbnail bài viết** và **ảnh bìa** sinh bằng
+`scripts/crop-from-design.sh`, cắt từ mock trong kho app
+(`wiki/uiux/03.tab-kham-pha/cate/`). Chạy lại khi designer giao mock mới:
+
+```bash
+./scripts/crop-from-design.sh /đường/dẫn/tới/kho/LichPro
+```
+
+Toạ độ cắt nằm trong chính script, kèm ghi chú vì sao chọn từng con số. Ba điều
+script phải xử lý mà cắt tay rất dễ quên:
+
+- **Thanh trạng thái giả** của mock (`9:41`, sóng, pin) nằm ở `y = 30..56` —
+  cắt từ `y = 0` là nướng luôn chữ "9:41" vào ảnh hero.
+- **Chữ ở nửa trái** dải hero (tiêu đề, mô tả, viên đếm bài) do app tự vẽ, phải
+  che đi bằng chính màu nền, biên phải mờ dần để không lộ đường cắt.
+- **Nút tròn góc trên–phải** (kính lúp / chia sẻ) nằm đè lên minh hoạ, phải vá
+  bằng vùng ảnh bên cạnh chứ không che bằng màu phẳng được.
+
+Độ phân giải: mock rộng 853 px ứng với màn 393 pt, nên ảnh ra khoảng **2,17×** —
+đủ nét cho máy 2×, hơi mềm trên máy 3×. Đây là giới hạn của nguồn, chờ designer
+giao asset gốc chất lượng cao.
+
+Ảnh **thẻ chủ đề** (`*-card-*.jpg`) **không** do script này sinh — đó là hình
+minh hoạ thật cấp riêng, mock chỉ vẽ thẻ ở cỡ rất nhỏ và phần dưới đã bị chữ phủ mờ.
+
+Chỉ bài **Tết Nguyên Đán** có ảnh bìa, vì design chỉ vẽ đúng một ảnh bìa. Năm
+bài còn lại vào thẳng nội dung sau phần mô tả.
+
+## Đổi ảnh thì phải đổi TÊN FILE
+
+App cache ảnh theo URL, hạn 30 ngày (`RemoteImage.maxDiskAge`). **Ghi đè cùng
+tên là vô hình** với mọi máy đã tải ảnh cũ — URL không đổi thì không có lý do
+tải lại. Vì vậy:
+
+1. Ảnh mới đặt tên có hậu tố phiên bản: `tet-hero-v2.jpg`, `tet-hero-v3.jpg`…
+   (biến `V` ở đầu `scripts/crop-from-design.sh`).
+2. Trỏ gói mới sang tên mới, **tăng `version`**, cập nhật `version.json`.
+3. **Giữ lại ảnh tên cũ và gói cũ.** Máy còn ở gói cũ vẫn trỏ vào chúng cho tới
+   lần kiểm định kỳ kế tiếp — xoá đi là làm hỏng màn hình của họ ngay lập tức.
+
+Hệ quả: `images/` chỉ phình thêm, không bao giờ co lại. Dọn được khi chắc chắn
+không còn máy nào ở gói cũ.
