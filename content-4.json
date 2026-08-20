@@ -1,0 +1,425 @@
+{
+  "version": 4,
+  "generatedAt": "2026-08-20T09:00:00Z",
+  "imageBaseURL": "https://phamtuandev.github.io/lichpro-content/",
+  "topics": [
+    {
+      "id": "culture",
+      "name": "Văn hóa truyền thống",
+      "heroTitle": "Văn hóa\ntruyền thống",
+      "summary": "Khám phá những giá trị văn hóa đặc sắc, phong tục tập quán và nét đẹp truyền thống của người Việt.",
+      "cardImage": "images/topics/culture-card-v2.jpg",
+      "heroImage": "images/topics/culture-hero-v2.jpg",
+      "categories": [
+        {
+          "id": "phong-tuc",
+          "name": "Phong tục",
+          "color": "#D80000"
+        },
+        {
+          "id": "le-hoi",
+          "name": "Lễ hội",
+          "color": "#D32412"
+        },
+        {
+          "id": "tin-nguong",
+          "name": "Tín ngưỡng",
+          "color": "#D80000"
+        },
+        {
+          "id": "lang-nghe",
+          "name": "Làng nghề",
+          "color": "#EC8D01"
+        },
+        {
+          "id": "khac",
+          "name": "Khác",
+          "color": "#8A7C6D"
+        }
+      ]
+    },
+    {
+      "id": "fengshui",
+      "name": "Phong thủy nhà cửa",
+      "heroTitle": "Phong thủy\nnhà cửa",
+      "summary": "Khám phá các nguyên tắc phong thủy để xây dựng không gian sống hài hòa, thu hút tài lộc và mang lại bình an cho gia đình.",
+      "cardImage": "images/topics/fengshui-card-v2.jpg",
+      "heroImage": "images/topics/fengshui-hero-v2.jpg",
+      "categories": [
+        {
+          "id": "nha-o",
+          "name": "Nhà ở",
+          "color": "#D32412"
+        },
+        {
+          "id": "huong-nha",
+          "name": "Hướng nhà",
+          "color": "#D32412"
+        },
+        {
+          "id": "phong-khach",
+          "name": "Phòng khách",
+          "color": "#D32412"
+        },
+        {
+          "id": "phong-ngu",
+          "name": "Phòng ngủ",
+          "color": "#D32412"
+        },
+        {
+          "id": "nha-bep",
+          "name": "Nhà bếp",
+          "color": "#EC8D01"
+        },
+        {
+          "id": "cua-chinh",
+          "name": "Cửa chính",
+          "color": "#D80000"
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "name": "Tiết khí & mùa trong năm",
+      "heroTitle": "Tiết khí &\nmùa trong năm",
+      "summary": "Khám phá 24 tiết khí trong năm, đặc điểm thời tiết theo mùa và những lưu ý quan trọng để sống thuận theo thiên nhiên.",
+      "cardImage": "images/topics/season-card-v2.jpg",
+      "heroImage": "images/topics/season-hero-v2.jpg",
+      "categories": [
+        {
+          "id": "24-tiet-khi",
+          "name": "24 tiết khí",
+          "color": "#237827"
+        },
+        {
+          "id": "mua-xuan",
+          "name": "Mùa xuân",
+          "color": "#237827"
+        },
+        {
+          "id": "mua-ha",
+          "name": "Mùa hạ",
+          "color": "#D32412"
+        },
+        {
+          "id": "mua-thu",
+          "name": "Mùa thu",
+          "color": "#EC8D01"
+        },
+        {
+          "id": "mua-dong",
+          "name": "Mùa đông",
+          "color": "#2052AC"
+        }
+      ]
+    },
+    {
+      "id": "tet",
+      "name": "Lễ Tết truyền thống",
+      "heroTitle": "Lễ tết\ntruyền thống",
+      "summary": "Khám phá ý nghĩa, phong tục và những nét đẹp trong các lễ tết truyền thống của người Việt qua từng thời kỳ.",
+      "cardImage": "images/topics/tet-card-v2.jpg",
+      "heroImage": "images/topics/tet-hero-v2.jpg",
+      "categories": [
+        {
+          "id": "nguyen-dan",
+          "name": "Tết Nguyên Đán",
+          "color": "#D80000"
+        },
+        {
+          "id": "gio-to",
+          "name": "Giỗ tổ Hùng Vương",
+          "color": "#D32412"
+        },
+        {
+          "id": "trung-thu",
+          "name": "Tết Trung Thu",
+          "color": "#EC8D01"
+        },
+        {
+          "id": "le-chua",
+          "name": "Lễ chùa đầu năm",
+          "color": "#B8860B"
+        },
+        {
+          "id": "thanh-minh",
+          "name": "Tết Thanh Minh",
+          "color": "#D32412"
+        },
+        {
+          "id": "nguyen-tieu",
+          "name": "Rằm tháng Giêng",
+          "color": "#B8860B"
+        },
+        {
+          "id": "doan-ngo",
+          "name": "Tết Đoan Ngọ",
+          "color": "#D32412"
+        },
+        {
+          "id": "vu-lan",
+          "name": "Rằm tháng Bảy",
+          "color": "#2052AC"
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "tet-nguyen-dan-net-dep",
+      "topicId": "culture",
+      "categoryId": "phong-tuc",
+      "title": "Tết Nguyên Đán – Nét đẹp văn hóa truyền thống của người Việt",
+      "summary": "Tìm hiểu ý nghĩa, phong tục và những giá trị văn hóa đặc sắc trong ngày Tết cổ truyền của dân tộc.",
+      "thumbnail": "images/articles/tet-nguyen-dan-thumb-v2.jpg",
+      "publishedAt": "2024-01-15",
+      "featuredRank": 1,
+      "pageURL": "articles/tet-nguyen-dan-net-dep.html",
+      "pageRevision": 2
+    },
+    {
+      "id": "huong-nha-hop-phong-thuy",
+      "topicId": "fengshui",
+      "categoryId": "huong-nha",
+      "title": "Cách xác định hướng nhà hợp phong thủy",
+      "summary": "Hướng nhà đóng vai trò quan trọng trong việc thu hút năng lượng tốt và mang lại bình an cho cả gia đình.",
+      "thumbnail": "images/articles/huong-nha-thumb-v2.jpg",
+      "publishedAt": "2024-01-15",
+      "featuredRank": 2,
+      "pageURL": "articles/huong-nha-hop-phong-thuy.html",
+      "pageRevision": 2
+    },
+    {
+      "id": "lap-xuan-khoi-dau-nam-moi",
+      "topicId": "season",
+      "categoryId": "24-tiet-khi",
+      "title": "Lập Xuân – Khởi đầu một năm mới",
+      "summary": "Lập Xuân là tiết khí đầu tiên trong năm, đánh dấu sự khởi đầu của vạn vật sau mùa đông dài.",
+      "thumbnail": "images/articles/lap-xuan-thumb-v2.jpg",
+      "publishedAt": "2024-02-04",
+      "featuredRank": 3,
+      "pageURL": "articles/lap-xuan-khoi-dau-nam-moi.html",
+      "pageRevision": 2
+    },
+    {
+      "id": "tho-cung-to-tien",
+      "topicId": "culture",
+      "categoryId": "tin-nguong",
+      "title": "Ý nghĩa của việc thờ cúng ông bà tổ tiên",
+      "summary": "Thờ cúng tổ tiên là một nét đẹp văn hóa tâm linh, thể hiện đạo lý “uống nước nhớ nguồn” của người Việt.",
+      "thumbnail": "images/articles/tho-cung-thumb-v2.jpg",
+      "publishedAt": "2024-01-10",
+      "pageURL": "articles/tho-cung-to-tien.html",
+      "pageRevision": 2
+    },
+    {
+      "id": "tet-trung-thu",
+      "topicId": "tet",
+      "categoryId": "trung-thu",
+      "title": "Tết Trung Thu – Đêm hội trăng rằm ấm áp yêu thương",
+      "summary": "Khám phá nguồn gốc, ý nghĩa và những phong tục đặc sắc của Tết Trung Thu trong đời sống người Việt.",
+      "thumbnail": "images/articles/trung-thu-thumb-v2.jpg",
+      "publishedAt": "2024-09-17",
+      "pageURL": "articles/tet-trung-thu.html",
+      "pageRevision": 2
+    },
+    {
+      "id": "le-chua-dau-nam",
+      "topicId": "tet",
+      "categoryId": "le-chua",
+      "title": "Lễ chùa đầu năm – Cầu bình an, may mắn",
+      "summary": "Ý nghĩa và những lưu ý khi đi lễ chùa đầu năm để đón một năm mới an lành.",
+      "thumbnail": "images/articles/le-chua-thumb-v2.jpg",
+      "publishedAt": "2024-02-20",
+      "pageURL": "articles/le-chua-dau-nam.html",
+      "pageRevision": 2
+    },
+    {
+      "id": "ong-cong-ong-tao",
+      "topicId": "tet",
+      "categoryId": "nguyen-dan",
+      "title": "Ông Công Ông Táo – Tiễn Táo quân về trời ngày 23 tháng Chạp",
+      "summary": "Nguồn gốc tục cúng Táo quân, mâm lễ thường thấy và trình tự tiễn ông Táo mở màn cho những ngày giáp Tết.",
+      "thumbnail": "images/articles/tet-nguyen-dan-thumb-v2.jpg",
+      "publishedAt": "2024-02-02",
+      "pageURL": "articles/ong-cong-ong-tao.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "ram-thang-gieng",
+      "topicId": "tet",
+      "categoryId": "nguyen-tieu",
+      "title": "Rằm tháng Giêng – Lễ Nguyên tiêu trong đời sống người Việt",
+      "summary": "Vì sao dân gian coi trọng rằm đầu tiên của năm, mâm cỗ cúng thường có gì và những việc nên làm trong ngày này.",
+      "thumbnail": "images/articles/le-chua-thumb-v2.jpg",
+      "publishedAt": "2024-02-24",
+      "pageURL": "articles/ram-thang-gieng.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "tet-thanh-minh-tao-mo",
+      "topicId": "tet",
+      "categoryId": "thanh-minh",
+      "title": "Tết Thanh Minh – Tảo mộ và đạo hiếu của người Việt",
+      "summary": "Ý nghĩa tiết Thanh Minh, tục tảo mộ của các gia đình Việt và những điều nên lưu tâm khi ra phần mộ tổ tiên.",
+      "thumbnail": "images/articles/tho-cung-thumb-v2.jpg",
+      "publishedAt": "2024-04-04",
+      "pageURL": "articles/tet-thanh-minh-tao-mo.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "tet-doan-ngo",
+      "topicId": "tet",
+      "categoryId": "doan-ngo",
+      "title": "Tết Đoan Ngọ – Tết diệt sâu bọ giữa mùa hè",
+      "summary": "Nguồn gốc ngày mùng 5 tháng Năm âm lịch, tục ăn rượu nếp buổi sáng và những món quen thuộc của ba miền.",
+      "thumbnail": "images/articles/trung-thu-thumb-v2.jpg",
+      "publishedAt": "2024-06-10",
+      "pageURL": "articles/tet-doan-ngo.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "ram-thang-bay-vu-lan",
+      "topicId": "tet",
+      "categoryId": "vu-lan",
+      "title": "Rằm tháng Bảy – Vu Lan báo hiếu và tục cúng cô hồn",
+      "summary": "Phân biệt hai lễ cùng diễn ra trong tháng Bảy âm lịch, mâm cúng của mỗi lễ và cách sắp xếp cho đúng thứ tự.",
+      "thumbnail": "images/articles/tho-cung-thumb-v2.jpg",
+      "publishedAt": "2024-08-18",
+      "pageURL": "articles/ram-thang-bay-vu-lan.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "le-that-tich",
+      "topicId": "culture",
+      "categoryId": "le-hoi",
+      "title": "Lễ Thất Tịch – Ngưu Lang Chức Nữ và tục ăn chè đậu đỏ",
+      "summary": "Sự tích ngày mùng 7 tháng Bảy âm lịch, vì sao trời hay mưa và tục ăn chè đậu đỏ mới nổi lên gần đây.",
+      "thumbnail": "images/articles/le-chua-thumb-v2.jpg",
+      "publishedAt": "2024-08-10",
+      "pageURL": "articles/le-that-tich.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "gio-to-hung-vuong",
+      "topicId": "tet",
+      "categoryId": "gio-to",
+      "title": "Giỗ Tổ Hùng Vương – Uống nước nhớ nguồn",
+      "summary": "Ngày mùng 10 tháng Ba âm lịch trong tâm thức người Việt, nghi lễ ở Đền Hùng và ý nghĩa của tín ngưỡng thờ cúng Vua Hùng.",
+      "thumbnail": "images/articles/tho-cung-thumb-v2.jpg",
+      "publishedAt": "2024-04-18",
+      "pageURL": "articles/gio-to-hung-vuong.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "phong-tuc-cuoi-hoi",
+      "topicId": "culture",
+      "categoryId": "phong-tuc",
+      "title": "Phong tục cưới hỏi truyền thống – Từ dạm ngõ đến rước dâu",
+      "summary": "Các bước trong lễ cưới cổ truyền của người Việt, ý nghĩa từng nghi thức và những thay đổi trong đám cưới ngày nay.",
+      "thumbnail": "images/articles/tet-nguyen-dan-thumb-v2.jpg",
+      "publishedAt": "2024-03-12",
+      "pageURL": "articles/phong-tuc-cuoi-hoi.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "day-thang-thoi-noi",
+      "topicId": "culture",
+      "categoryId": "phong-tuc",
+      "title": "Đầy tháng, thôi nôi – Phong tục mừng con trẻ chào đời",
+      "summary": "Ý nghĩa lễ cúng Mụ, cách tính ngày đầy tháng theo lệ xưa và nghi thức bốc đồ chọn nghề trong ngày thôi nôi.",
+      "thumbnail": "images/articles/lap-xuan-thumb-v2.jpg",
+      "publishedAt": "2024-03-20",
+      "pageURL": "articles/day-thang-thoi-noi.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "tang-le-va-kieng-ky",
+      "topicId": "culture",
+      "categoryId": "phong-tuc",
+      "title": "Tang lễ người Việt – Nghi thức và những điều kiêng kỵ",
+      "summary": "Trình tự một đám tang cổ truyền, ý nghĩa của các lễ cúng sau khi an táng và những điều nên lưu tâm khi đi viếng.",
+      "thumbnail": "images/articles/tho-cung-thumb-v2.jpg",
+      "publishedAt": "2024-05-08",
+      "pageURL": "articles/tang-le-va-kieng-ky.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "le-nhap-trach-ve-nha-moi",
+      "topicId": "fengshui",
+      "categoryId": "nha-o",
+      "title": "Lễ nhập trạch – Những việc cần làm khi về nhà mới",
+      "summary": "Ý nghĩa lễ nhập trạch, thứ tự mang đồ vào nhà và những việc nên chuẩn bị trước ngày dọn về.",
+      "thumbnail": "images/articles/huong-nha-thumb-v2.jpg",
+      "publishedAt": "2024-05-22",
+      "pageURL": "articles/le-nhap-trach-ve-nha-moi.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "dong-tho-xay-nha",
+      "topicId": "fengshui",
+      "categoryId": "nha-o",
+      "title": "Lễ động thổ – Khởi công xây nhà đúng phong tục",
+      "summary": "Ý nghĩa lễ động thổ, mâm cúng thổ công và những lưu ý khi mượn tuổi làm nhà theo tập quán dân gian.",
+      "thumbnail": "images/articles/huong-nha-thumb-v2.jpg",
+      "publishedAt": "2024-06-26",
+      "pageURL": "articles/dong-tho-xay-nha.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "xuat-hanh-xong-dat-dau-nam",
+      "topicId": "tet",
+      "categoryId": "nguyen-dan",
+      "title": "Xuất hành và xông đất đầu năm",
+      "summary": "Hai phong tục quen thuộc trong ngày đầu năm mới: chuyến đi đầu tiên ra khỏi nhà và người khách đặt chân đến trước nhất.",
+      "thumbnail": "images/articles/tet-nguyen-dan-thumb-v2.jpg",
+      "publishedAt": "2024-02-10",
+      "pageURL": "articles/xuat-hanh-xong-dat-dau-nam.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "khai-truong-dau-nam",
+      "topicId": "culture",
+      "categoryId": "phong-tuc",
+      "title": "Khai trương đầu năm – Phong tục mở hàng lấy vía",
+      "summary": "Ý nghĩa lễ khai trương, tục mở hàng lấy vía của người buôn bán và cách chuẩn bị cho buổi mở cửa đầu năm.",
+      "thumbnail": "images/articles/tet-nguyen-dan-thumb-v2.jpg",
+      "publishedAt": "2024-02-14",
+      "pageURL": "articles/khai-truong-dau-nam.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "chuyen-ban-tho-ve-nha-moi",
+      "topicId": "culture",
+      "categoryId": "tin-nguong",
+      "title": "Chuyển bàn thờ về nhà mới – Trình tự và điều cần tránh",
+      "summary": "Cách xin phép, đóng gói và an vị lại bàn thờ gia tiên khi chuyển nhà, cùng những lưu ý về vị trí đặt bàn thờ mới.",
+      "thumbnail": "images/articles/tho-cung-thumb-v2.jpg",
+      "publishedAt": "2024-07-03",
+      "pageURL": "articles/chuyen-ban-tho-ve-nha-moi.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "cung-mung-mot-ngay-ram",
+      "topicId": "culture",
+      "categoryId": "tin-nguong",
+      "title": "Cúng mùng Một và ngày Rằm hằng tháng",
+      "summary": "Ý nghĩa hai ngày sóc vọng trong tháng âm lịch, lễ vật thường dùng và cấu trúc một bài khấn giản dị tại nhà.",
+      "thumbnail": "images/articles/tho-cung-thumb-v2.jpg",
+      "publishedAt": "2024-07-17",
+      "pageURL": "articles/cung-mung-mot-ngay-ram.html",
+      "pageRevision": 1
+    },
+    {
+      "id": "mam-ngu-qua-ba-mien",
+      "topicId": "culture",
+      "categoryId": "phong-tuc",
+      "title": "Mâm ngũ quả ba miền – Ý nghĩa từng loại quả",
+      "summary": "Vì sao là năm loại quả, cách bày của người Bắc, Trung, Nam và ý nghĩa gửi gắm trong từng thứ quả quen thuộc.",
+      "thumbnail": "images/articles/tet-nguyen-dan-thumb-v2.jpg",
+      "publishedAt": "2024-01-22",
+      "pageURL": "articles/mam-ngu-qua-ba-mien.html",
+      "pageRevision": 1
+    }
+  ]
+}
