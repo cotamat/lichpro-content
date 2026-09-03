@@ -102,6 +102,33 @@ minh hoạ thật cấp riêng, mock chỉ vẽ thẻ ở cỡ rất nhỏ và p
 Chỉ bài **Tết Nguyên Đán** có ảnh bìa, vì design chỉ vẽ đúng một ảnh bìa. Năm
 bài còn lại vào thẳng nội dung sau phần mô tả.
 
+## Thumbnail tự sinh
+
+Kho design chỉ có mock cho **sáu bài đầu tiên**, nên mọi bài thêm về sau không
+cắt được thumbnail từ đó. Ảnh cho các bài này sinh bằng `scripts/gen-thumbs.py`:
+
+```bash
+python3 scripts/gen-thumbs.py content-7.json
+```
+
+Script đọc gói nội dung, với mỗi bài có `id` nằm trong bảng `ICONS` thì vẽ ảnh
+`246×180` gồm nền gradient theo **màu category của bài** và một icon line-art
+trắng, rồi xuất JPEG vào đúng đường dẫn `thumbnail` ghi trong gói. Chạy lại
+nhiều lần cho ra kết quả y hệt.
+
+Ba điều cần biết trước khi sửa script:
+
+- **Vẽ bằng MVG (`magick -draw`), không qua SVG.** Máy dev không có
+  `rsvg-convert` nên magick rơi về renderer MSVG nội bộ, và renderer đó dựng
+  `<rect fill>` lẫn gradient đều ra ảnh đen.
+- **Không có chữ trong ảnh.** `magick -list font` không trả về font nào, chữ
+  tiếng Việt có dấu sẽ hỏng. Tiêu đề đã nằm ngay dưới thẻ ở tab Khám phá rồi.
+- **Thêm bài mới thì phải thêm một icon mới vào `ICONS`.** Bài không có icon sẽ
+  bị bỏ qua — đó là cách sáu bài gốc giữ được ảnh thật cắt từ design.
+
+Icon vẽ trong khung `24×24`, cùng ngôn ngữ đồ hoạ với `ul.icon-list` dùng trong
+thân bài viết. Mỗi bài một icon riêng: không bài nào được dùng chung ảnh với bài khác.
+
 ## Đổi ảnh thì phải đổi TÊN FILE
 
 App cache ảnh theo URL, hạn 30 ngày (`RemoteImage.maxDiskAge`). **Ghi đè cùng
