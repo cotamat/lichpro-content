@@ -1,8 +1,7 @@
 {
   "version": 1,
   "generatedAt": "2026-08-20T00:00:00Z",
-  "imageBaseURL": "https://phamtuandev.github.io/lichpro-content/",
-
+  "imageBaseURL": "https://cotamat.github.io/lichpro-content/",
   "topics": [
     {
       "id": "culture",
@@ -12,11 +11,31 @@
       "cardImage": "images/topics/culture-card.jpg",
       "heroImage": "images/topics/culture-hero.jpg",
       "categories": [
-        { "id": "phong-tuc",  "name": "Phong tục",  "color": "#D80000" },
-        { "id": "le-hoi",     "name": "Lễ hội",     "color": "#D32412" },
-        { "id": "tin-nguong", "name": "Tín ngưỡng", "color": "#D80000" },
-        { "id": "lang-nghe",  "name": "Làng nghề",  "color": "#EC8D01" },
-        { "id": "khac",       "name": "Khác",       "color": "#8A7C6D" }
+        {
+          "id": "phong-tuc",
+          "name": "Phong tục",
+          "color": "#D80000"
+        },
+        {
+          "id": "le-hoi",
+          "name": "Lễ hội",
+          "color": "#D32412"
+        },
+        {
+          "id": "tin-nguong",
+          "name": "Tín ngưỡng",
+          "color": "#D80000"
+        },
+        {
+          "id": "lang-nghe",
+          "name": "Làng nghề",
+          "color": "#EC8D01"
+        },
+        {
+          "id": "khac",
+          "name": "Khác",
+          "color": "#8A7C6D"
+        }
       ]
     },
     {
@@ -27,12 +46,36 @@
       "cardImage": "images/topics/fengshui-card.jpg",
       "heroImage": "images/topics/fengshui-hero.jpg",
       "categories": [
-        { "id": "nha-o",        "name": "Nhà ở",       "color": "#D32412" },
-        { "id": "huong-nha",    "name": "Hướng nhà",   "color": "#D32412" },
-        { "id": "phong-khach",  "name": "Phòng khách", "color": "#D32412" },
-        { "id": "phong-ngu",    "name": "Phòng ngủ",   "color": "#D32412" },
-        { "id": "nha-bep",      "name": "Nhà bếp",     "color": "#EC8D01" },
-        { "id": "cua-chinh",    "name": "Cửa chính",   "color": "#D80000" }
+        {
+          "id": "nha-o",
+          "name": "Nhà ở",
+          "color": "#D32412"
+        },
+        {
+          "id": "huong-nha",
+          "name": "Hướng nhà",
+          "color": "#D32412"
+        },
+        {
+          "id": "phong-khach",
+          "name": "Phòng khách",
+          "color": "#D32412"
+        },
+        {
+          "id": "phong-ngu",
+          "name": "Phòng ngủ",
+          "color": "#D32412"
+        },
+        {
+          "id": "nha-bep",
+          "name": "Nhà bếp",
+          "color": "#EC8D01"
+        },
+        {
+          "id": "cua-chinh",
+          "name": "Cửa chính",
+          "color": "#D80000"
+        }
       ]
     },
     {
@@ -43,11 +86,31 @@
       "cardImage": "images/topics/season-card.jpg",
       "heroImage": "images/topics/season-hero.jpg",
       "categories": [
-        { "id": "24-tiet-khi", "name": "24 tiết khí", "color": "#237827" },
-        { "id": "mua-xuan",    "name": "Mùa xuân",    "color": "#237827" },
-        { "id": "mua-ha",      "name": "Mùa hạ",      "color": "#D32412" },
-        { "id": "mua-thu",     "name": "Mùa thu",     "color": "#EC8D01" },
-        { "id": "mua-dong",    "name": "Mùa đông",    "color": "#2052AC" }
+        {
+          "id": "24-tiet-khi",
+          "name": "24 tiết khí",
+          "color": "#237827"
+        },
+        {
+          "id": "mua-xuan",
+          "name": "Mùa xuân",
+          "color": "#237827"
+        },
+        {
+          "id": "mua-ha",
+          "name": "Mùa hạ",
+          "color": "#D32412"
+        },
+        {
+          "id": "mua-thu",
+          "name": "Mùa thu",
+          "color": "#EC8D01"
+        },
+        {
+          "id": "mua-dong",
+          "name": "Mùa đông",
+          "color": "#2052AC"
+        }
       ]
     },
     {
@@ -58,15 +121,34 @@
       "cardImage": "images/topics/tet-card.jpg",
       "heroImage": "images/topics/tet-hero.jpg",
       "categories": [
-        { "id": "nguyen-dan",  "name": "Tết Nguyên Đán",   "color": "#D80000" },
-        { "id": "gio-to",      "name": "Giỗ tổ Hùng Vương", "color": "#D32412" },
-        { "id": "trung-thu",   "name": "Tết Trung Thu",    "color": "#EC8D01" },
-        { "id": "le-chua",     "name": "Lễ chùa đầu năm",  "color": "#B8860B" },
-        { "id": "thanh-minh",  "name": "Tết Thanh Minh",   "color": "#D32412" }
+        {
+          "id": "nguyen-dan",
+          "name": "Tết Nguyên Đán",
+          "color": "#D80000"
+        },
+        {
+          "id": "gio-to",
+          "name": "Giỗ tổ Hùng Vương",
+          "color": "#D32412"
+        },
+        {
+          "id": "trung-thu",
+          "name": "Tết Trung Thu",
+          "color": "#EC8D01"
+        },
+        {
+          "id": "le-chua",
+          "name": "Lễ chùa đầu năm",
+          "color": "#B8860B"
+        },
+        {
+          "id": "thanh-minh",
+          "name": "Tết Thanh Minh",
+          "color": "#D32412"
+        }
       ]
     }
   ],
-
   "articles": [
     {
       "id": "tet-nguyen-dan-net-dep",

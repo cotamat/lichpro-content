@@ -3,7 +3,7 @@
 Kho nội dung tĩnh cho tab **Khám phá** của app Lịch Pro, phục vụ qua GitHub Pages tại:
 
 ```
-https://phamtuandev.github.io/lichpro-content/
+https://cotamat.github.io/lichpro-content/
 ```
 
 App đọc kho này ở hai chỗ và **chỉ hai chỗ**:
