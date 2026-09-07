@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-03T00:00:00Z",
+  "categories": [
+    { "id": "cuoc-song", "name": "Cuộc sống" },
+    { "id": "thanh-cong", "name": "Thành công" },
+    { "id": "gia-dinh", "name": "Gia đình" },
+    { "id": "hoc-tap", "name": "Học tập" },
+    { "id": "tinh-ban", "name": "Tình bạn" }
+  ],
+  "quotes": [
+    { "id": "q-0001", "categoryId": "cuoc-song", "text": "Sống là cho, đâu chỉ nhận riêng mình.", "author": "Tố Hữu" },
+    { "id": "q-0002", "categoryId": "cuoc-song", "text": "Ở hiền gặp lành." },
+    { "id": "q-0003", "categoryId": "cuoc-song", "text": "Không có con đường nào dẫn tới hạnh phúc, hạnh phúc chính là con đường.", "author": "Thích Nhất Hạnh" },
+    { "id": "q-0004", "categoryId": "cuoc-song", "text": "Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao.", "author": "Ca dao Việt Nam" },
+    { "id": "q-0005", "categoryId": "cuoc-song", "text": "Điều quan trọng không phải là bạn sống bao lâu, mà là bạn sống thế nào.", "author": "Seneca" },
+    { "id": "q-0006", "categoryId": "cuoc-song", "text": "Gieo nhân nào gặt quả ấy." },
+    { "id": "q-0007", "categoryId": "cuoc-song", "text": "Chớ thấy sóng cả mà ngã tay chèo.", "author": "Tục ngữ Việt Nam" },
+
+    { "id": "q-0101", "categoryId": "thanh-cong", "text": "Có công mài sắt, có ngày nên kim.", "author": "Tục ngữ Việt Nam" },
+    { "id": "q-0102", "categoryId": "thanh-cong", "text": "Thành công là đi từ thất bại này đến thất bại khác mà không mất đi nhiệt huyết.", "author": "Winston Churchill" },
+    { "id": "q-0103", "categoryId": "thanh-cong", "text": "Đường đi khó, không khó vì ngăn sông cách núi, mà khó vì lòng người ngại núi e sông.", "author": "Nguyễn Bá Học" },
+    { "id": "q-0104", "categoryId": "thanh-cong", "text": "Cơ hội chỉ đến với người đã chuẩn bị sẵn sàng.", "author": "Louis Pasteur" },
+    { "id": "q-0105", "categoryId": "thanh-cong", "text": "Kiên trì là chìa khoá của mọi cánh cửa." },
+    { "id": "q-0106", "categoryId": "thanh-cong", "text": "Muốn đi nhanh thì đi một mình, muốn đi xa thì đi cùng nhau.", "author": "Ngạn ngữ châu Phi" },
+    { "id": "q-0107", "categoryId": "thanh-cong", "text": "Việc hôm nay chớ để ngày mai.", "author": "Tục ngữ Việt Nam" },
+
+    { "id": "q-0201", "categoryId": "gia-dinh", "text": "Công cha như núi Thái Sơn, nghĩa mẹ như nước trong nguồn chảy ra.", "author": "Ca dao Việt Nam" },
+    { "id": "q-0202", "categoryId": "gia-dinh", "text": "Anh em như thể tay chân, rách lành đùm bọc dở hay đỡ đần.", "author": "Ca dao Việt Nam" },
+    { "id": "q-0203", "categoryId": "gia-dinh", "text": "Gia đình là nơi cuộc sống bắt đầu và tình yêu không bao giờ kết thúc." },
+    { "id": "q-0204", "categoryId": "gia-dinh", "text": "Con hơn cha là nhà có phúc.", "author": "Tục ngữ Việt Nam" },
+    { "id": "q-0205", "categoryId": "gia-dinh", "text": "Thuận vợ thuận chồng, tát biển Đông cũng cạn.", "author": "Tục ngữ Việt Nam" },
+    { "id": "q-0206", "categoryId": "gia-dinh", "text": "Một giọt máu đào hơn ao nước lã.", "author": "Tục ngữ Việt Nam" },
+
+    { "id": "q-0301", "categoryId": "hoc-tap", "text": "Đi một ngày đàng, học một sàng khôn.", "author": "Tục ngữ Việt Nam" },
+    { "id": "q-0302", "categoryId": "hoc-tap", "text": "Học, học nữa, học mãi.", "author": "V. I. Lenin" },
+    { "id": "q-0303", "categoryId": "hoc-tap", "text": "Học đi đôi với hành.", "author": "Hồ Chí Minh" },
+    { "id": "q-0304", "categoryId": "hoc-tap", "text": "Không thầy đố mày làm nên.", "author": "Tục ngữ Việt Nam" },
+    { "id": "q-0305", "categoryId": "hoc-tap", "text": "Đầu tư vào tri thức luôn đem lại lợi nhuận tốt nhất.", "author": "Benjamin Franklin" },
+    { "id": "q-0306", "categoryId": "hoc-tap", "text": "Dốt đến đâu học lâu cũng biết.", "author": "Tục ngữ Việt Nam" },
+    { "id": "q-0307", "categoryId": "hoc-tap", "text": "Biết thì thưa thốt, không biết thì dựa cột mà nghe." },
+
+    { "id": "q-0401", "categoryId": "tinh-ban", "text": "Ăn chọn nơi, chơi chọn bạn.", "author": "Tục ngữ Việt Nam" },
+    { "id": "q-0402", "categoryId": "tinh-ban", "text": "Bạn bè là gia đình mà ta tự chọn lấy." },
+    { "id": "q-0403", "categoryId": "tinh-ban", "text": "Giàu vì bạn, sang vì vợ.", "author": "Tục ngữ Việt Nam" },
+    { "id": "q-0404", "categoryId": "tinh-ban", "text": "Một người bạn tốt là một kho báu.", "author": "Ngạn ngữ Pháp" },
+    { "id": "q-0405", "categoryId": "tinh-ban", "text": "Bán anh em xa, mua láng giềng gần.", "author": "Tục ngữ Việt Nam" }
+  ]
+}
