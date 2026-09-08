@@ -129,6 +129,30 @@ Ba điều cần biết trước khi sửa script:
 Icon vẽ trong khung `24×24`, cùng ngôn ngữ đồ hoạ với `ul.icon-list` dùng trong
 thân bài viết. Mỗi bài một icon riêng: không bài nào được dùng chung ảnh với bài khác.
 
+## Ảnh CC0 lấy từ Wikimedia Commons
+
+Loạt bài **24 tiết khí** dùng ảnh chụp thật thay vì icon tự vẽ, vì tiết khí nói
+về hiện tượng thiên nhiên. Nguồn ảnh và giấy phép từng file ghi ở
+[`images/CREDITS.md`](images/CREDITS.md).
+
+Quy tắc bắt buộc khi lấy thêm ảnh về sau:
+
+- **Chỉ nhận `CC0` và `Public domain`.** Không nhận CC-BY hay CC-BY-SA: BY buộc
+  ghi công ở nơi người dùng nhìn thấy được, mà app chưa có màn hình credits;
+  BY-SA còn buộc ảnh đã cắt phải phát hành lại cùng giấy phép.
+- **Hỏi lại giấy phép của từng file qua Commons API ngay trước khi tải**, đọc
+  `imageinfo.extmetadata.LicenseShortName`. Không suy từ việc file nằm trong
+  category nào — Commons có cả `Category:Unsplash related deletion requests`
+  cho những file bị gắn nhãn sai.
+- **Tải qua URL thumbnail** (`iiurlwidth`) chứ không tải ảnh gốc. Commons trả
+  HTTP 429 rất nhanh nếu kéo file gốc hàng loạt, và ta chỉ cần 246×180.
+- **Ảnh phải khớp thời tiết Việt Nam, không khớp nghĩa chữ Hán.** Bài Đại Tuyết
+  viết rằng Việt Nam gần như không có tuyết, nên minh hoạ bằng ảnh tuyết dày là
+  để ảnh cãi lại chính bài viết. Chọn theo hiện tượng có thật ở tiết đó.
+- **Xem tận mắt trước khi commit.** Dựng contact sheet bằng `magick montage` rồi
+  nhìn từng ảnh: đúng chủ đề, không chữ nước ngoài, không logo, không người nhận
+  diện được, và không hai bài nào trùng ảnh.
+
 ## Đổi ảnh thì phải đổi TÊN FILE
 
 App cache ảnh theo URL, hạn 30 ngày (`RemoteImage.maxDiskAge`). **Ghi đè cùng
