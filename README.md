@@ -137,6 +137,14 @@ Cùng gói, 11 bài trùng với bài mẫu trong design đổi thumbnail sang `
 
 ## Thumbnail tự sinh
 
+> **Từ gói version 11, không bài nào còn dùng ảnh do script này sinh.** 28 bài từng
+> dùng icon line-art (`*-thumb-v1.jpg` / `*-thumb-v3.jpg` ngoài loạt tiết khí) đã đổi
+> sang `*-thumb-v5.jpg` — tranh minh hoạ cắt từ bộ tranh của canvas design, nâng lên
+> 372×271 px (3,2× khung 118×86 pt). Nguồn chuẩn là artboard "Ảnh bài viết · bổ sung
+> từ kho nội dung" trên canvas; thay ảnh ở đó trước rồi mới đưa về đây. File cũ giữ
+> lại cho máy còn ở gói ≤ 10. Script dưới đây chỉ còn dùng khi cần ảnh tạm cho bài mới.
+
+
 Kho design chỉ có mock cho **sáu bài đầu tiên**, nên mọi bài thêm về sau không
 cắt được thumbnail từ đó. Ảnh cho các bài này sinh bằng `scripts/gen-thumbs.py`:
 
