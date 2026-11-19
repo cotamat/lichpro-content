@@ -102,6 +102,21 @@ minh hoạ thật cấp riêng, mock chỉ vẽ thẻ ở cỡ rất nhỏ và p
 Chỉ bài **Tết Nguyên Đán** có ảnh bìa, vì design chỉ vẽ đúng một ảnh bìa. Năm
 bài còn lại vào thẳng nội dung sau phần mô tả.
 
+## Ảnh thẻ chủ đề Sáng / Tối
+
+Từ gói version 9, mỗi chủ đề có thêm trường **tuỳ chọn** `cardImageDark` bên cạnh
+`cardImage`. App ở chế độ Tối dùng ảnh này **nguyên trạng**, không phủ tối; thiếu
+trường thì app quay về `cardImage` kèm lớp phủ tối 15% như các gói cũ.
+
+Bộ ảnh hiện tại (`images/topics/*-card-v3.jpg`, `*-card-dark-v3.jpg`, ~510×414)
+lấy từ thư viện tài nguyên của canvas design tab Khám phá (artboard
+`TaiNguyen.dc.html`, ảnh `ex_t1..t4` / `dk_t1..t4`), thay cho bộ `*-card-v2.jpg`
+183×253 vốn bị kéo nhoè nửa dưới. Bản Tối là tranh vẽ riêng cho nền tối, không
+phải bản Sáng bị làm tối đi. Khung hiển thị trong app là 108×92 pt.
+
+`scripts/validate.py` báo lỗi nếu `cardImageDark` là chuỗi rỗng hoặc trỏ tới file
+không có trong kho.
+
 ## Thumbnail tự sinh
 
 Kho design chỉ có mock cho **sáu bài đầu tiên**, nên mọi bài thêm về sau không

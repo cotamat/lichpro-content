@@ -76,6 +76,13 @@ def main(path: str) -> int:
         for key in ("cardImage", "heroImage"):
             if t.get(key):
                 local_file(t[key], where, "ảnh")
+        # Ảnh thẻ cho chế độ Tối — tuỳ chọn. Thiếu thì app dùng `cardImage` kèm
+        # lớp phủ tối; có thì phải là file thật, không được là chuỗi rỗng.
+        if "cardImageDark" in t:
+            if not str(t["cardImageDark"]).strip():
+                err(f"{where}: 'cardImageDark' rỗng — bỏ hẳn trường nếu không có ảnh")
+            else:
+                local_file(t["cardImageDark"], where, "ảnh")
 
         cats = t.get("categories") or []
         if not cats:
