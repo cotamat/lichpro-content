@@ -57,7 +57,7 @@ xuất 372×271 px (3,2×), làm nét nhẹ; khung cắt tránh chữ Hán trên
 |---|---|---|---|
 | `cai-tang-sang-cat` | [Tomb of Prime Minister Lu Gia and General Nguyen Danh Lang (Lăng mộ Thừa tướng Lữ Gia và tướng Nguyễn Danh Lang).jpg](https://commons.wikimedia.org/wiki/File:Tomb_of_Prime_Minister_Lu_Gia_and_General_Nguyen_Danh_Lang_(L%C4%83ng_m%E1%BB%99_Th%E1%BB%ABa_t%C6%B0%E1%BB%9Bng_L%E1%BB%AF_Gia_v%C3%A0_t%C6%B0%E1%BB%9Bng_Nguy%E1%BB%85n_Danh_Lang).jpg) | Phuonghoanghamthu (vi.wikipedia) | Public domain |
 | `chuyen-ban-tho-ve-nha-moi` | [Incense burner, Nguyen dynasty, 19th to early 20th century, bronze - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05602.JPG](https://commons.wikimedia.org/wiki/File:Incense_burner,_Nguyen_dynasty,_19th_to_early_20th_century,_bronze_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05602.JPG) | Daderot | CC0 |
-| `cung-mung-mot-ngay-ram` | [Incense in Bière Larue - Da Nang, Vietnam - DSC02423.JPG](https://commons.wikimedia.org/wiki/File:Incense_in_Bi%C3%A8re_Larue_-_Da_Nang,_Vietnam_-_DSC02423.JPG) | Daderot | CC0 |
+| `cung-mung-mot-ngay-ram` | [Mâm cúng chay tháng 9 năm 2018 nhà mệ (2).jpg](https://commons.wikimedia.org/wiki/File:M%C3%A2m_c%C3%BAng_chay_th%C3%A1ng_9_n%C4%83m_2018_nh%C3%A0_m%E1%BB%87_(2).jpg) | Phương Huy | Public domain |
 | `le-cung-xe-moi` | [Mopeds in Haiphong, Vietnam (Unsplash).jpg](https://commons.wikimedia.org/wiki/File:Mopeds_in_Haiphong,_Vietnam_(Unsplash).jpg) | Andrew Ly | CC0 |
 | `ong-cong-ong-tao` | [Tranh Đông Hồ Ông Táo.jpg](https://commons.wikimedia.org/wiki/File:Tranh_%C4%90%C3%B4ng_H%E1%BB%93_%C3%94ng_T%C3%A1o.jpg) | Tranh Đông Hồ, khuyết danh | Public domain |
 | `phong-tuc-cuoi-hoi` | [Trau cau (Vietnam).JPG](https://commons.wikimedia.org/wiki/File:Trau_cau_(Vietnam).JPG) | Khương Việt Hà | Public domain |
@@ -65,3 +65,7 @@ xuất 372×271 px (3,2×), làm nét nhẹ; khung cắt tránh chữ Hán trên
 | `tang-le-va-kieng-ky` | [Funeral of Phan Châu Trinh in Saigon.jpg](https://commons.wikimedia.org/wiki/File:Funeral_of_Phan_Ch%C3%A2u_Trinh_in_Saigon.jpg) | Photo Nadal, cliché Ng.-chi-Hoa | Public domain |
 | `tet-doan-ngo` | [節端陽梁𦲿𲄌朱𡥵.png](https://commons.wikimedia.org/wiki/File:%E7%AF%80%E7%AB%AF%E9%99%BD%E6%A2%81%F0%A6%B2%BF%F0%B2%84%8C%E6%9C%B1%F0%A1%A5%B5.png) | Henri Oger | Public domain |
 | `tet-han-thuc` | [Banhchay.JPG](https://commons.wikimedia.org/wiki/File:Banhchay.JPG) | Conbo (vi.wikipedia) | Public domain |
+
+**Từ gói version 13**, bài `cung-mung-mot-ngay-ram` đổi sang ảnh mâm cúng chay
+(`-thumb-v7.jpg`) — ảnh lư hương trong lon bia (Daderot, CC0, `-thumb-v6.jpg`) không hợp
+nội dung bài. File v6 giữ cho gói 12.
