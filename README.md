@@ -117,6 +117,24 @@ phải bản Sáng bị làm tối đi. Khung hiển thị trong app là 108×92
 `scripts/validate.py` báo lỗi nếu `cardImageDark` là chuỗi rỗng hoặc trỏ tới file
 không có trong kho.
 
+## Hero chủ đề Sáng / Tối và màu dải (gói v10)
+
+Từ gói version 10, mỗi chủ đề có thêm ba trường **tuỳ chọn**:
+
+| Trường | Ý nghĩa | Thiếu thì app |
+|---|---|---|
+| `heroImageDark` | Tranh hero cho chế độ Tối, dùng nguyên trạng | dùng `heroImage` |
+| `heroTone` | Màu dải nền hero ở chế độ Sáng, `#RRGGBB` | dùng một màu kem chung |
+| `heroToneDark` | Như trên, chế độ Tối | dùng nền tối chung của app |
+
+Ảnh hero v3 (`images/topics/*-hero-v3.jpg`, `*-hero-dark-v3.jpg`) là **tranh minh
+hoạ đứng riêng**, không còn là cả dải hero cắt từ mock như bản v2: app vẽ tranh
+~250 pt neo góc phải, mép mờ dần vào dải màu `heroTone`. Đổi tranh thì chọn
+`heroTone` bằng màu nền giấy của chính tranh, nếu không sẽ lộ mép.
+
+Cùng gói, 11 bài trùng với bài mẫu trong design đổi thumbnail sang `*-thumb-v4.jpg`
+(xem `images/CREDITS.md`).
+
 ## Thumbnail tự sinh
 
 Kho design chỉ có mock cho **sáu bài đầu tiên**, nên mọi bài thêm về sau không

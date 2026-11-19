@@ -76,13 +76,18 @@ def main(path: str) -> int:
         for key in ("cardImage", "heroImage"):
             if t.get(key):
                 local_file(t[key], where, "ảnh")
-        # Ảnh thẻ cho chế độ Tối — tuỳ chọn. Thiếu thì app dùng `cardImage` kèm
-        # lớp phủ tối; có thì phải là file thật, không được là chuỗi rỗng.
-        if "cardImageDark" in t:
-            if not str(t["cardImageDark"]).strip():
-                err(f"{where}: 'cardImageDark' rỗng — bỏ hẳn trường nếu không có ảnh")
-            else:
-                local_file(t["cardImageDark"], where, "ảnh")
+        # Ảnh thẻ / ảnh hero cho chế độ Tối — tuỳ chọn (gói v9 / v10). Thiếu thì
+        # app dùng ảnh Sáng; có thì phải là file thật, không được là chuỗi rỗng.
+        for key in ("cardImageDark", "heroImageDark"):
+            if key in t:
+                if not str(t[key]).strip():
+                    err(f"{where}: '{key}' rỗng — bỏ hẳn trường nếu không có ảnh")
+                else:
+                    local_file(t[key], where, "ảnh")
+        # Màu dải hero (gói v10) — tuỳ chọn, nhưng có thì phải đúng #RRGGBB.
+        for key in ("heroTone", "heroToneDark"):
+            if key in t and not HEX.fullmatch(str(t[key])):
+                err(f"{where}: '{key}' phải dạng #RRGGBB, đang là {t[key]!r}")
 
         cats = t.get("categories") or []
         if not cats:

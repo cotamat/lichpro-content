@@ -8,6 +8,11 @@ trước khi tải, không suy từ category.
 CC0 và Public domain không bắt buộc ghi công. Bảng này để về sau còn truy
 được nguồn gốc từng ảnh khi cần rà soát.
 
+**Từ gói version 10**, ba bài `tiet-bach-lo`, `tiet-dai-han`, `tiet-tieu-man`
+dùng thumbnail minh hoạ lấy từ canvas design tab Khám phá (`*-thumb-v4.jpg`), cùng
+tám bài khác. Ba ảnh CC0 tương ứng trong bảng dưới (`*-thumb-v1.jpg`) chỉ còn được
+gói cũ trỏ tới — giữ file cho tới khi chắc không còn máy nào ở gói ≤ 9.
+
 Ảnh của sáu bài gốc cắt từ file design của app; ảnh các bài phong tục do
 `scripts/gen-thumbs.py` tự vẽ. Cả hai nhóm đó không nằm trong bảng này.
 
