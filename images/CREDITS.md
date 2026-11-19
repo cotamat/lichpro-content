@@ -69,3 +69,19 @@ xuất 372×271 px (3,2×), làm nét nhẹ; khung cắt tránh chữ Hán trên
 **Từ gói version 13**, bài `cung-mung-mot-ngay-ram` đổi sang ảnh mâm cúng chay
 (`-thumb-v7.jpg`) — ảnh lư hương trong lon bia (Daderot, CC0, `-thumb-v6.jpg`) không hợp
 nội dung bài. File v6 giữ cho gói 12.
+
+## Từ gói version 14 — tranh do chủ dự án cung cấp
+
+Chín bài dùng tranh minh hoạ do chủ dự án đưa lên canvas design (đã cắt sẵn
+372×271): `tang-le-va-kieng-ky` (v7), `chuyen-ban-tho-ve-nha-moi` (v8),
+`cung-mung-mot-ngay-ram` (v8), `tin-nguong-tho-mau` (v8), `tuc-dot-via-tre-so-sinh` (v6),
+`phong-tuc-o-cu-sau-sinh` (v8), `cai-tang-sang-cat` (v8), `vay-muon-tra-no-dau-nam` (v8),
+`le-cung-xe-moi` (v8).
+
+Hai tranh có nguồn ngoài — `chuyen-ban-tho-ve-nha-moi` (dựa trên tranh của cửa hàng
+Đồ cúng Tâm Linh) và `tin-nguong-tho-mau` (tranh Chầu Đệ Nhị Thượng Ngàn) — chủ dự án
+xác nhận đã có quyền sử dụng (2026-11-19).
+
+Năm ảnh Commons của `tang-le-va-kieng-ky`, `chuyen-ban-tho-ve-nha-moi`,
+`cung-mung-mot-ngay-ram`, `cai-tang-sang-cat`, `le-cung-xe-moi` ở các bảng trên chỉ còn
+gói 12–13 trỏ tới; giữ file cho gói cũ.
